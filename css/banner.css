@@ -68,3 +68,14 @@
     font-size: 20px;
     cursor: pointer;
 }
+
+#banner #contenido table{
+    display: block;
+    padding: 10px;
+    width: 150%;
+    margin: 30px 0;
+    font-size: 20px;    
+    cursor: pointer;
+    border: 1px solid rgba(51, 51, 51, 0.9);
+    background: rgba(51, 51, 51, 0.5);
+}
