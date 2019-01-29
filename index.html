@@ -36,9 +36,9 @@
                 </ul>
             </nav>
 
-            <div class="buscar-menu">
+            <div class="buscar-menu" id="routs">
                 <ul>
-                    <li><a href="#">Crear</a></li>
+                    <li><a href="vistas/crear.html">Crear</a></li>
                     <li><a href="#">Listar</a></li>
                     <li><a href="#">Actualizar</a></li>
                 </ul>
@@ -59,16 +59,7 @@
             </form>
         </div>-->
         <div id="contenido">
-            <form action="#">
-                    <h2>CREAR USUARIOS</h2>
-                    <input type="text" id="usuario" name="usuario"  placeholder="NOMBRE DE USURIO"/>
-                    <input type="password" id="contraseña" name="password" placeholder="PASSWORD"/>
-                    <select name="rol" id="rol">
-                            <option selected >ADMINITRADOR</option>
-                            <option> OPERARIO </option>
-                            </select>
-                    <input type="submit" value="Iniciar" class="Iniciar"/>
-                </form>
+           
         </div>
 
     </section>
@@ -89,8 +80,11 @@
         </div>
     </footer>
     <!--=====================================footer end====================================-->
-    <!--Validacion-->
+    <!--extenciones ajax y jquery-->
+    <script src="js/jquery.js"></script>
+    <!--files-->
     <script src="js/validacion.js"></script>
+    <script src="js/routs.js"></script>
 
 </body>
 </html>
